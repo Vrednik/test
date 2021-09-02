@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'NunitoBold';
+    src: url("../fonts/NunitoBold.ttf");
+}
+
+@font-face {
+    font-family: 'NunitoExtraBold';
+    src: url("../fonts/NunitoExtraBold.ttf");
+}
+
+body {
+    font-family: 'NunitoBold', sans-serif;
+    margin: 0;
+
+}
+
+#order {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #FFFFFB 50%, #F8F8FA 50%);
+    background-size: cover;
+}
+
+#order-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    padding-bottom: 191px;
+}
+
+#order-logo {
+    font-family: 'NunitoExtraBold', sans-serif;
+    font-size: 36px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 27px;
+    left: 50%;
+    transform: translate(-51%, -50%);
+
+}
+
+
+#order-logo span {
+    font-size: 45px;
+    color: #D72F3F;
+    text-transform: uppercase;
+}
+
+#order-form {
+    margin-top: 194px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#order-form-title {
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+
+}
+
+#order-form-text {
+    max-width: 496px;
+    margin-top: 7px;
+    margin-bottom: 42px;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+}
+
+#order-form input {
+    border: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #C6C6C4;
+    max-width: 452px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+}
+
+#order-form p {
+    font-size: 16px;
+    color: #C6C6C4;
+    margin-bottom: 5px;
+}
+
+
+#checkbox a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #636363;
+    margin-left: 10px;
+}
+
+#btn {
+    width: 210px;
+    background: #DD3142;
+    border-radius: 40px;
+    padding: 23px;
+    font-size: 20px;
+    color: #FFFFFF;
+    outline: 0;
+    border: 0;
+    margin-top: 40px;
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#order-form-account{
+    text-align: center;
+    margin-top: 154px;
+}
+#order-form-account a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+
+#order-images {
+    margin-top: 254px;
+    margin-left: 65px;
+}
+
+
